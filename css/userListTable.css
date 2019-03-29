@@ -1,6 +1,6 @@
 .userlistContainer {
     display: flex;
-    flex: 4 1;
+    height: 30%;
     flex-direction: column;
     min-height: 270px;
     padding: 5%;
