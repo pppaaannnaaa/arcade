@@ -8,6 +8,7 @@
     <link href="css/iconCss.css" rel="stylesheet" type="text/css">
     <link href="css/userListTable.css" rel="stylesheet" type="text/css">
     <link href="css/toptags.css" rel="stylesheet" type="text/css">
+    <link href="css/popup.css" rel="stylesheet" type="text/css">
 </head>
 
 <body>
@@ -129,8 +130,18 @@
                 <div class="header">
                     <div class="title">Dashboard</div>
                     <div class="filter">
-                        <img src="/images/filterIcon.png" alt="" class="filterIcon">
-                        Filter</div>
+                        <div class="contaier">
+                            <span><img src="/images/filterIcon.png" alt="" class="filterIcon">
+                                Filter</span>
+                            <div class="popup">
+                                <div class="list">
+                                    <div class="listItem">Last 7 Days</div>
+                                    <div class="listItem">Last month</div>
+                                    <div class="listItem">Enter custom date</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
                 <div class="dashBody">
                     <div class="posts">
@@ -153,16 +164,19 @@
                             <hr />
                             <div class="noOfViews">4.2k views</div>
                             <div class="noOfViews">
-                                <img src="/images/heart.png" alt="" class="noOfLikesIcon"><span>571 Likes </span>
+                                <img src="/images/heart.png" alt="" class="noOfLikesIcon"><span>571
+                                    Likes </span>
                                 &nbsp;&nbsp;
-                                <img src="/images/comment.png" alt="" class="commentsIcon"><span>270 Comments</span>
+                                <img src="/images/comment.png" alt="" class="commentsIcon"><span>270
+                                    Comments</span>
                             </div>
                         </div>
                         <div class="statisticsCard">
                             <div class="oneLiner">
                                 <div class="noOfUsers">25 users
                                 </div>
-                                <img src="/images/states.png" alt="" class="commentsIcon"><span>5% up</span>
+                                <img src="/images/states.png" alt="" class="commentsIcon"><span>5%
+                                    up</span>
                             </div>
                             <div class="noOfViews">From the the Last Month</div>
                             <img src="/images/james007.jpg" alt="" class="postImg">
@@ -245,7 +259,9 @@
 
                         </div>
                         <div class="TopTagsContainer">
-                            <div class="oneLiner"><span class="userTitle">Top Tags</span></div>
+                            <div class="oneLiner"><span class="userTitle">Top Tags</span>
+                                <span class="chips">9</span>
+                            </div>
                             <div class="oneLiner layoutWrapped">
                                 <span class="tagBtn">First Blood</span>
                                 <span class="tagBtn">First Blood</span>
@@ -261,7 +277,7 @@
                                 <span class="tagBtn">First Blood</span>
                                 <span class="tagBtn">First Blood</span>
                                 <span class="tagBtn">First Blood</span>
-                                
+
                             </div>
                         </div>
                     </div>

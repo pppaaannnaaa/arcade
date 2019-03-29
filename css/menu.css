@@ -56,6 +56,9 @@
     height: 36px;
     align-items: center;
 }
+.menuItems:hover .item{
+    background-color: #f3f8ff;
+}
 .item:hover{
     display: flex;
     flex: 1 1;
