@@ -1,0 +1,85 @@
+.mainMenu {
+    display: none;
+    flex: 1;
+    flex-direction: column;
+}
+
+.labelMenu {
+    display: flex;
+    align-items: center;
+    margin-left: 10px;
+    height: 36px;
+    font-family: OpenSans;
+    font-size: 12px;
+    font-weight: 600;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #7f8fa4;
+}
+
+.menuItems {
+    display: flex;
+    align-items: center;
+    height: 36px;
+    padding-left: 5px;
+    font-family: OpenSans;
+    font-size: 12px;
+    font-weight: 600;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #7f8fa4;
+}
+
+.menuItems:hover {
+    display: flex;
+    align-items: center;
+    padding-left: 5px;
+    height: 36px;
+    font-family: OpenSans;
+    font-size: 12px;
+    font-weight: 600;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #007fff;
+    background-color: #007fff;
+}
+.item{
+    display: flex;
+    flex: 1 1;
+    padding-left: 15px;
+    height: 36px;
+    align-items: center;
+}
+.item:hover{
+    display: flex;
+    flex: 1 1;
+    height: 36px;
+    align-items: center;
+    background-color: #f3f8ff;
+}
+.item .icon{
+    width: 20px;
+    height: 20px;
+    background-size: 18px;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin: 0px 5px;
+}
+
+.item .itemName{
+    width: 136px;
+    height: 23px;
+    font-family: OpenSans;
+    font-size: 14px;
+    font-weight: 600;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.64;
+    letter-spacing: normal;
+}

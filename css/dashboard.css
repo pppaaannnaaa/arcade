@@ -1,0 +1,261 @@
+.middle {
+    display: flex;
+    flex: 1 1;
+    flex-direction: row;
+    background-color: #f7f8fa;
+    height: calc(100% - 65px);
+}
+
+.menu {
+    display: flex;
+    flex: 1 1;
+    background-color: #ffffff;
+}
+
+.mainMenu {
+    display: none;
+}
+
+.menu:hover {
+    display: flex;
+    flex: 20 1;
+}
+
+.dashboard {
+    display: flex;
+    flex: 95 1;
+    margin: 3% 0 0 3%;
+    flex-direction: column;
+    padding-right: 3%;
+}
+
+.menuRotated {
+    transform: rotate(90deg);
+}
+
+.menu:hover .indicatorMenu {
+    display: none;
+}
+
+.menu:hover .mainMenu {
+    display: flex;
+}
+
+.indicatorMenu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: OpenSans;
+    font-size: 14px;
+    font-weight: 600;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #627888;
+}
+
+.dashboard {
+    margin: 3% 3% 0 3%;
+    flex-direction: column;
+}
+
+.header {
+    display: flex;
+    flex-direction: row;
+    height: 40px;
+    width: 100%;
+    align-items: center;
+}
+
+.title {
+    display: flex;
+    flex: 1 1;
+    opacity: 0.87;
+    font-family: OpenSans;
+    font-size: 18px;
+    font-weight: 600;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #000000;
+}
+
+.filter {
+    display: flex;
+    flex: 1 1;
+    justify-content: flex-end;
+    font-family: OpenSans;
+    font-size: 14px;
+    font-weight: 600;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #617888;
+}
+
+.filterIcon {
+    padding-right: 10px;
+}
+
+.dashBody {
+    display: flex;
+    flex: 1 1;
+}
+
+.dashBody .posts {
+    display: flex;
+    flex: 1 1;
+    flex-direction: column;
+}
+
+.dashBody .others {
+    display: flex;
+    flex: 2 1;
+}
+
+.topPost {
+    display: flex;
+    flex-direction: column;
+    flex: 2 1;
+    min-height: 300px;
+    margin: 0px 2% 7% 2%;
+    padding: 5%;
+    border-radius: 5px;
+    box-shadow: 0 1px 2px 0 rgba(127, 143, 164, 0.2);
+    background-color: #ffffff;
+}
+
+.statisticsCard {
+    display: flex;
+    flex: 1 1;
+    min-height: 200px;
+    margin: 0px 2% 7% 2%;
+    padding: 10%;
+    border-radius: 5px;
+    box-shadow: 0 1px 2px 0 rgba(127, 143, 164, 0.2);
+    background-color: #ffffff;
+}
+
+.titleBar {
+    display: flex;
+    flex-direction: row;
+    flex: 1;
+    height: 20px;
+    align-items: center;
+}
+
+.titleBar .left {
+    display: flex;
+    flex: 1;
+    justify-content: flex-start;
+    font-family: OpenSans;
+    font-size: 16px;
+    font-weight: 600;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #627888;
+}
+
+.titleBar .right {
+    display: flex;
+    flex: 1;
+    justify-content: flex-end;
+    font-family: OpenSans;
+    font-size: 12px;
+    font-weight: 600;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #a7afbc;
+}
+
+.postImg {
+    height: 150px;
+    width: auto;
+    padding-bottom: 10px;
+}
+
+.userInfo {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.userInfo .userImgContianer {
+    width: 20px;
+    height: 20px;
+    border-radius: 10px;
+    margin-right: 5px;
+    overflow: hidden;
+}
+
+.userInfo .userImgContianer .userImg {
+    width: 20px;
+    height: 20px;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.userInfo .username {
+    height: 18px;
+    font-family: OpenSans;
+    font-size: 13px;
+    font-weight: 600;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #617888;
+}
+
+.commentOnPost {
+    height: 34px;
+    font-family: OpenSans;
+    font-size: 12px;
+    font-weight: 600;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #a7afbc;
+}
+
+.hashTag {
+    color: #037fff;
+}
+
+hr {
+        border: 0px;
+    border-bottom: 1px solid #f3f4f6;
+    width: 112%;
+    margin: 2% -6%;
+}
+
+.noOfViews {
+    display: flex;
+    align-items: center;
+    height: 30px;
+    font-family: OpenSans;
+    font-size: 12px;
+    font-weight: 600;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #a7afbc;
+}
+
+.noOfLikesIcon {
+    padding-right: 10px;
+}
+
+.commentsIcon {
+    padding-left: 10px;
+    padding-right: 5px;
+}

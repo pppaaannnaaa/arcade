@@ -1,0 +1,107 @@
+
+*{
+    font-family: OpenSans;
+}
+html,body{
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+    margin: 0px;
+}
+#screen{
+    display: flex;
+    flex: 1 1;
+    flex-direction: column;
+}
+.top{
+    height: 65px;
+}
+.navbar{
+    display: flex;
+    flex: 1 1;
+    height: 63px;
+    box-shadow: 0 1px 2px 0 rgba(127, 143, 164, 0.26);
+    background-color: #ffffff;
+}
+
+.navLeft{
+    display: flex;
+    flex-direction: row;
+    flex: 1 1;
+    padding-left: 2%;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.navMiddle{
+    display: flex;
+    flex-direction: row;
+    flex: 1 1;
+    padding: 0 2%;
+    justify-content: center;
+    align-items: center;
+}
+
+.navRight{
+    display: flex;
+    flex-direction: row;
+    flex: 2 1;
+    padding-right:2%; 
+    justify-content: flex-end;
+    align-items: center;
+}
+.container{
+    display: inline-flex;
+    flex-direction: row;
+    width: fit-content;
+}
+.userDetailsLeft{
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding-right: 10%;
+}
+.userDetailsRight{
+    display: flex;
+    flex-direction: row;
+    width: 39px;
+    height: 39px;
+    border-radius: 20px;
+    overflow: hidden;
+    justify-content: center;
+    align-items: center;
+}
+.message{
+    display: inline-flex;
+    flex: 1;
+    white-space: nowrap;
+    font-family: OpenSans;
+  font-size: 12px;
+  font-weight: 600;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #a7afbc;
+}
+.userName{
+    display: inline-flex;
+    flex: 1;
+    white-space: nowrap;
+    font-family: OpenSans;
+    font-size: 14px;
+    font-weight: 600;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #627888;
+}
+
+.profilePic{
+    width: 39px;
+    height: 100%;
+}

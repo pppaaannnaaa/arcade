@@ -1,0 +1,76 @@
+.dashboardIcon{
+    background-image: url('/images/human-delete.png');
+}
+.menuItems:hover .dashboardIcon{
+    background-image: url('/images/dasboard.png');
+}
+
+.appSettingsIcon{
+    background-image: url('/images/settings.png');
+}
+.menuItems:hover .appSettingsIcon{
+    background-image: url('/images/dasboard.png');
+}
+
+.genreIcon{
+    background-image: url('/images/genre.png');
+}
+.menuItems:hover .genreIcon{
+    background-image: url('/images/dasboard.png');
+}
+
+.gamesIcon{
+    background-image: url('/images/sword.png');
+}
+.menuItems:hover .gamesIcon{
+    background-image: url('/images/dasboard.png');
+}
+
+.appTagIcon{
+    background-image: url('/images/appTagIcon.png');
+}
+.menuItems:hover .appTagIcon{
+    background-image: url('/images/dasboard.png');
+}
+
+.userSugestTagIcon{
+    background-image: url('/images/userSugestTagIcon.png');
+}
+.menuItems:hover .userSugestTagIcon{
+    background-image: url('/images/dasboard.png');
+}
+
+.pollsIcon{
+    background-image: url('/images/pollsIcon.png');
+}
+.menuItems:hover .pollsIcon{
+    background-image: url('/images/dasboard.png');
+}
+
+.userIcon{
+    background-image: url('/images/userIcon.png');
+}
+.menuItems:hover .userIcon{
+    background-image: url('/images/dasboard.png');
+}
+
+.layersIcon{
+    background-image: url('/images/layersIcon.png');
+}
+.menuItems:hover .layersIcon{
+    background-image: url('/images/dasboard.png');
+}
+
+.flagIcon{
+    background-image: url('/images/flagIcon.png');
+}
+.menuItems:hover .flagIcon{
+    background-image: url('/images/dasboard.png');
+}
+
+.chatIcon{
+    background-image: url('/images/chatIcon.png');
+}
+.menuItems:hover .chatIcon{
+    background-image: url('/images/dasboard.png');
+}
