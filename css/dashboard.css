@@ -27,6 +27,7 @@
     margin: 3% 0 0 3%;
     flex-direction: column;
     padding-right: 3%;
+    overflow-y: auto;
 }
 
 .menuRotated {
@@ -53,11 +54,6 @@
     line-height: normal;
     letter-spacing: normal;
     color: #627888;
-}
-
-.dashboard {
-    margin: 3% 3% 0 3%;
-    flex-direction: column;
 }
 
 .header {
@@ -114,6 +110,7 @@
 .dashBody .others {
     display: flex;
     flex: 2 1;
+    margin-left: 2%;
 }
 
 .topPost {
@@ -131,6 +128,7 @@
 .statisticsCard {
     display: flex;
     flex: 1 1;
+    flex-direction: column;
     min-height: 200px;
     margin: 0px 2% 7% 2%;
     padding: 10%;
@@ -231,7 +229,7 @@
 }
 
 hr {
-        border: 0px;
+    border: 0px;
     border-bottom: 1px solid #f3f4f6;
     width: 112%;
     margin: 2% -6%;
@@ -258,4 +256,50 @@ hr {
 .commentsIcon {
     padding-left: 10px;
     padding-right: 5px;
+}
+
+.noOfUsers {
+    height: 22px;
+    font-family: OpenSans;
+    font-size: 16px;
+    font-weight: 600;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #627888;
+}
+
+.oneLiner {
+    display: flex;
+    flex-direction: row;
+    height: 25px;
+}
+
+.summary {
+    display: flex;
+    flex: 1 1;
+    flex-direction: row;
+    height: 83px;
+    margin: 0 0 5% 0px;
+}
+
+.joinedBtn {
+    display: flex;
+    flex: 2 1;
+    margin-right: 2%;
+    height: 83px;
+    border-radius: 1.5px;
+    box-shadow: 0 1px 2px 0 rgba(127, 143, 164, 0.26);
+    background-color: #ffffff;
+}
+
+.totalUsers{
+    display: flex;
+    flex: 1 1;
+    margin-left: 2%;
+    height: 83px;
+    border-radius: 1.5px;
+    box-shadow: 0 1px 2px 0 rgba(127, 143, 164, 0.26);
+    background-color: #ffffff;
 }
