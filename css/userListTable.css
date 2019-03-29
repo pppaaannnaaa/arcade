@@ -1,0 +1,58 @@
+.userlistContainer {
+    display: flex;
+    flex: 4 1;
+    flex-direction: column;
+    min-height: 270px;
+    padding: 5%;
+    border-radius: 5px;
+    box-shadow: 0 1px 2px 0 rgba(127, 143, 164, 0.2);
+    background-color: #ffffff;
+}
+
+.userTitle {
+    font-family: OpenSans;
+    font-size: 16px;
+    font-weight: 600;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #627888;
+}
+
+table {
+    line-height: 50px;
+    table-layout: auto;
+    border-spacing: 0px;
+    margin-bottom: 15px;
+}
+
+table .userImgContianer, table .userImgContianer .userImg {
+    width: 20px;
+    height: 20px;
+}
+
+td {
+    border-bottom: 1px solid #ebedf8;
+    border-spacing: 0px;
+}
+
+td:nth-child(2) {
+    font-family: OpenSans;
+    font-size: 14px;
+    font-weight: 600;
+    font-style: normal;
+    font-stretch: normal;
+    letter-spacing: normal;
+    color: #617888;
+}
+
+td:nth-child(3), td:nth-child(4) {
+    font-family: OpenSans;
+    font-size: 12px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    letter-spacing: 0.1px;
+    color: #8a96a0;
+}

@@ -110,6 +110,8 @@
 .dashBody .others {
     display: flex;
     flex: 2 1;
+    height: 100%;
+    flex-direction: column;
     margin-left: 2%;
 }
 
@@ -274,19 +276,21 @@ hr {
     display: flex;
     flex-direction: row;
     height: 25px;
+    align-items: center;
 }
 
 .summary {
     display: flex;
     flex: 1 1;
     flex-direction: row;
-    height: 83px;
+    min-height: 60px;
     margin: 0 0 5% 0px;
 }
 
 .joinedBtn {
     display: flex;
     flex: 2 1;
+    align-items: center;
     margin-right: 2%;
     height: 83px;
     border-radius: 1.5px;
@@ -294,7 +298,34 @@ hr {
     background-color: #ffffff;
 }
 
-.totalUsers{
+.totalPostsToday {
+    display: flex;
+    flex: 1 1;
+    justify-content: center;
+    align-items: center;
+    height: 83px;
+    border-right: 1px solid #ebedf8;
+}
+
+.totalPosts {
+    display: flex;
+    flex: 1 1;
+    justify-content: center;
+    align-items: center;
+    height: 83px;
+    border-right: 1px solid #ebedf8;
+}
+
+.totalUsers {
+    display: flex;
+    flex: 1 1;
+    justify-content: center;
+    align-items: center;
+    height: 83px;
+    border-right: 1px solid #ebedf8;
+}
+
+.totalUsers {
     display: flex;
     flex: 1 1;
     margin-left: 2%;
@@ -302,4 +333,42 @@ hr {
     border-radius: 1.5px;
     box-shadow: 0 1px 2px 0 rgba(127, 143, 164, 0.26);
     background-color: #ffffff;
+}
+
+.circled {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 37px;
+    height: 37px;
+    border: solid 3px #f7f8fa;
+    border-radius: 20px;
+    margin-right: 10px;
+}
+
+.layersBlue {
+    height: 20px;
+    width: 20px;
+}
+
+.count {
+    font-family: OpenSans;
+    font-size: 18px;
+    font-weight: bold;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #0080ff;
+}
+
+.countInfo {
+    font-family: OpenSans;
+    font-size: 12px;
+    font-weight: bold;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #a7afbc;
 }
