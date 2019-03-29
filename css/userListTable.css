@@ -10,7 +10,7 @@
 }
 
 .userTitle {
-    font-family: OpenSans;
+    font-family: "Open Sans";
     font-size: 16px;
     font-weight: 600;
     font-style: normal;
@@ -38,7 +38,7 @@ td {
 }
 
 td:nth-child(2) {
-    font-family: OpenSans;
+    font-family: "Open Sans";
     font-size: 14px;
     font-weight: 600;
     font-style: normal;
@@ -48,7 +48,7 @@ td:nth-child(2) {
 }
 
 td:nth-child(3), td:nth-child(4) {
-    font-family: OpenSans;
+    font-family: "Open Sans";
     font-size: 12px;
     font-weight: normal;
     font-style: normal;

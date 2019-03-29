@@ -9,7 +9,7 @@
     align-items: center;
     margin-left: 10px;
     height: 36px;
-    font-family: OpenSans;
+    font-family: "Open Sans";
     font-size: 12px;
     font-weight: 600;
     font-style: normal;
@@ -24,7 +24,7 @@
     align-items: center;
     height: 36px;
     padding-left: 5px;
-    font-family: OpenSans;
+    font-family: "Open Sans";
     font-size: 12px;
     font-weight: 600;
     font-style: normal;
@@ -39,7 +39,7 @@
     align-items: center;
     padding-left: 5px;
     height: 36px;
-    font-family: OpenSans;
+    font-family: "Open Sans";
     font-size: 12px;
     font-weight: 600;
     font-style: normal;
@@ -78,7 +78,7 @@
 .item .itemName{
     width: 136px;
     height: 23px;
-    font-family: OpenSans;
+    font-family: "Open Sans";
     font-size: 14px;
     font-weight: 600;
     font-style: normal;

@@ -1,5 +1,5 @@
 * {
-    font-family: OpenSans;
+    font-family: "Open Sans";
 }
 
 html, body {
@@ -85,7 +85,7 @@ html, body {
     display: inline-flex;
     flex: 1;
     white-space: nowrap;
-    font-family: OpenSans;
+    font-family: "Open Sans";
     font-size: 12px;
     font-weight: 600;
     font-style: normal;
@@ -99,7 +99,7 @@ html, body {
     display: inline-flex;
     flex: 1;
     white-space: nowrap;
-    font-family: OpenSans;
+    font-family: "Open Sans";
     font-size: 14px;
     font-weight: 600;
     font-style: normal;
@@ -118,7 +118,7 @@ html, body {
     display: flex;
     justify-content: center;
     align-items: center;
-    font-family: OpenSans;
+    font-family: "Open Sans";
     font-size: 12px;
     font-weight: 600;
     font-style: normal;

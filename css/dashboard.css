@@ -46,7 +46,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    font-family: OpenSans;
+    font-family: "Open Sans";
     font-size: 14px;
     font-weight: 600;
     font-style: normal;
@@ -68,7 +68,7 @@
     display: flex;
     flex: 1 1;
     opacity: 0.87;
-    font-family: OpenSans;
+    font-family: "Open Sans";
     font-size: 18px;
     font-weight: 600;
     font-style: normal;
@@ -82,7 +82,7 @@
     display: flex;
     flex: 1 1;
     justify-content: flex-end;
-    font-family: OpenSans;
+    font-family: "Open Sans";
     font-size: 14px;
     font-weight: 600;
     font-style: normal;
@@ -152,7 +152,7 @@
     display: flex;
     flex: 1;
     justify-content: flex-start;
-    font-family: OpenSans;
+    font-family: "Open Sans";
     font-size: 16px;
     font-weight: 600;
     font-style: normal;
@@ -166,7 +166,7 @@
     display: flex;
     flex: 1;
     justify-content: flex-end;
-    font-family: OpenSans;
+    font-family: "Open Sans";
     font-size: 12px;
     font-weight: 600;
     font-style: normal;
@@ -205,7 +205,7 @@
 
 .userInfo .username {
     height: 18px;
-    font-family: OpenSans;
+    font-family: "Open Sans";
     font-size: 13px;
     font-weight: 600;
     font-style: normal;
@@ -217,7 +217,7 @@
 
 .commentOnPost {
     height: 34px;
-    font-family: OpenSans;
+    font-family: "Open Sans";
     font-size: 12px;
     font-weight: 600;
     font-style: normal;
@@ -242,7 +242,7 @@ hr {
     display: flex;
     align-items: center;
     height: 30px;
-    font-family: OpenSans;
+    font-family: "Open Sans";
     font-size: 12px;
     font-weight: 600;
     font-style: normal;
@@ -263,7 +263,7 @@ hr {
 
 .noOfUsers {
     height: 22px;
-    font-family: OpenSans;
+    font-family: "Open Sans";
     font-size: 16px;
     font-weight: 600;
     font-style: normal;
@@ -352,7 +352,7 @@ hr {
 }
 
 .count {
-    font-family: OpenSans;
+    font-family: "Open Sans";
     font-size: 18px;
     font-weight: bold;
     font-style: normal;
@@ -363,7 +363,7 @@ hr {
 }
 
 .countInfo {
-    font-family: OpenSans;
+    font-family: "Open Sans";
     font-size: 12px;
     font-weight: bold;
     font-style: normal;
